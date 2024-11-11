@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+    string sTitulo = "Bienvenidos al Sistema Web elpiquero.com";
+    int iSueldo = 3500;
+    DateTime dFechaHoy = DateTime.Now;
+    int iVisitantes = 25;
+    int x = 5;
+    int y = 9;
+    Double I = 3.6;
+    Double U = 5.2;
+    Double Resultado = iSueldo / 30;
+    string sNombre = "Jose Carlos", sApellidos = "Obeso Camones";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@sTitulo</title>
+</head>
+<body>
+    <div>
+        <p> Web Secundario</p>
+
+        <h1>Bienvenidos @sTitulo</h1>
+        <h2>Tu Sueldo es : @iSueldo</h2>
+        <h3>Hoy es : @dFechaHoy</h3>
+        <h4>Visitantes @iVisitantes</h4>
+        <h5>la resta es @(x - y)</h5>
+        <h6>El total : I - U : @(I - U)</h6>
+        <h4>La division es : @Resultado</h4>
+        <h5>Decremneto de Sueldo @(iSueldo = iSueldo - 1000)</h5>
+        <h4>es 8 menor que 4? @(8 < 4)</h4>
+        <h4>es 5 igual que 4? @(5 == 4)</h4>
+        <h4>es 6 igual que 3? @(6 != 3)</h4>
+        <p>Operadores Logicos</p>
+        <p> es Cierto que 1 = 1 y que 2 = 2 : @(1 == 1 && 2 == 2) </p>
+        <p> es Cierto que 6 = 6 o que 7 = 7 : @(6 == 6 || 7 == 7) </p>
+        <p> es Cierto que 14 = 14 o que 15 = 78 : @(14 == 19 || 15 == 78) </p>
+        <p><strong>Personal : @(sNombre + ' ' + sApellidos )</strong></p>
+    </div>
+</body>
+</html>
