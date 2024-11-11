@@ -97,6 +97,8 @@
     <Content Include="default.cshtml" />
     <Content Include="estructuraFor.cshtml" />
     <Content Include="estructuraIF.cshtml" />
+    <Content Include="BucleWhile.cshtml" />
+    <Content Include="fechas.cshtml" />
     <None Include="packages.config" />
     <Content Include="matricesArray.cshtml" />
     <None Include="Web.Debug.config">
