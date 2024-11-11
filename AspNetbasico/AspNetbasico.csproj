@@ -96,7 +96,9 @@
   <ItemGroup>
     <Content Include="default.cshtml" />
     <Content Include="estructuraFor.cshtml" />
+    <Content Include="estructuraIF.cshtml" />
     <None Include="packages.config" />
+    <Content Include="matricesArray.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
