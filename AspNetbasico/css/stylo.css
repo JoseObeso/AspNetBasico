@@ -1,0 +1,10 @@
+﻿body {
+    background-color:azure;
+}
+.contenedor {
+    width:60px;
+    background-color:aqua;
+    box-shadow: rgba(0,0,0,4) inherit;
+}
+
+ 
