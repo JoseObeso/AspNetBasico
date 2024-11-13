@@ -106,6 +106,8 @@
     <Content Include="razorbucles.cshtml" />
     <Content Include="razordecisiones.cshtml" />
     <Content Include="razorcontrol2.cshtml" />
+    <Content Include="razorASP.cshtml" />
+    <Content Include="razorControlErrores.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
