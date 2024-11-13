@@ -101,6 +101,11 @@
     <Content Include="fechas.cshtml" />
     <None Include="packages.config" />
     <Content Include="matricesArray.cshtml" />
+    <Content Include="RazorCSharp.cshtml" />
+    <Content Include="RazorCSharp2.cshtml" />
+    <Content Include="razorbucles.cshtml" />
+    <Content Include="razordecisiones.cshtml" />
+    <Content Include="razorcontrol2.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
