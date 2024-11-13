@@ -1,19 +1,19 @@
-﻿@{
-    Layout = null;
-    string sTitulo = "Bienvenidos a la Tiene On Line de elPiquero.com";
-}
-
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@sTitulo</title>
-    <link href="~/css/stylo.css" rel="stylesheet" />
-</head>
 <body>
+    @RenderPage("~/include/cabecera.cshtml")
+
+
     <div class="contenedor">Bienvenidos
     
+
+
     </div>
+
+
+
+
+    @RenderPage("~/include/piepagina.cshtml")
+
 </body>
 </html>

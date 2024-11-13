@@ -100,6 +100,8 @@
     <Content Include="estructuraIF.cshtml" />
     <Content Include="BucleWhile.cshtml" />
     <Content Include="fechas.cshtml" />
+    <Content Include="include\cabecera.cshtml" />
+    <Content Include="include\piepagina.cshtml" />
     <None Include="packages.config" />
     <Content Include="matricesArray.cshtml" />
     <Content Include="RazorCSharp.cshtml" />
