@@ -1,0 +1,12 @@
+problema:
+
+Se produjo un error al insertar en el repositorio remoto: Git failed with a fatal error.
+unable to access 'https://github.com/JoseObeso/AspNetBasico.git/': SSL certificate problem: self-signed certificate in certificate chain
+Pushing to https://github.com/JoseObeso/AspNetBasico.git
+
+
+Solucion:
+
+D:\MDOC\DEV\NET\ZZ_SANDBOX\AspNetBasico\AspNetbasico>git config --global http.sslbackend schannel
+
+D:\MDOC\DEV\NET\ZZ_SANDBOX\AspNetBasico\AspNetbasico>
